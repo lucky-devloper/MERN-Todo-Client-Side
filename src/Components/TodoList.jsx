@@ -4,7 +4,7 @@ import { AiFillEdit } from "react-icons/ai";
 import { MdSaveAs } from "react-icons/md";
 import axios from "axios";
 
-const API_URL = "https://mern-todo-app-production-4641.up.railway.app/api/todos";
+const API_URL = "https://mern-todo-app-server-production.up.railway.app/api/todos";
 
 const TodoList = () => {
     const [todos, setTodos] = useState([]);
